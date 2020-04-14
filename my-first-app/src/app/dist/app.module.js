@@ -10,13 +10,21 @@ var platform_browser_1 = require("@angular/platform-browser");
 var core_1 = require("@angular/core");
 var forms_1 = require("@angular/forms");
 var app_component_1 = require("./app.component");
+var server_comonent_1 = require("./server/server.comonent");
+var servers_component_1 = require("./servers/servers.component");
+var success_signal_component_1 = require("./success-signal/success-signal.component");
+var warning_alert_component1_1 = require("../warning-alert/warning-alert.component1");
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
             declarations: [
-                app_component_1.AppComponent
+                app_component_1.AppComponent,
+                server_comonent_1.ServerComponent,
+                servers_component_1.ServersComponent,
+                success_signal_component_1.SuccessSignalComponent,
+                warning_alert_component1_1.WarningAlertComponent,
             ],
             imports: [
                 platform_browser_1.BrowserModule,
